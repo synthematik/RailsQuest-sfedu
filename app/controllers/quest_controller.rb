@@ -42,7 +42,7 @@ class QuestController < ApplicationController
   end
 
   def version_params
-    nil
+    params.require(:version).permit(:major, :minor, :patch)
 
   end
 

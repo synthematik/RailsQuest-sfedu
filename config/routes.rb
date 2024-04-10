@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   # Кто-то начал делать квест!
   get '/step2', to: 'quest#step2'
 
-  # Step 3
+  # Step 2
   post '/step3', to: 'quest#step3'
 
   # Step 4
@@ -16,4 +16,7 @@ Rails.application.routes.draw do
 
   # Step 5
   get '/quest/step5', to: 'quest#step5'
+
+  # Step 6
+  post '/final', to: 'quest#final'
 end
