@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   get '/deadend', to: 'quest#deadend'
 
   # Кто-то начал делать квест!
+  get '/step2', to: 'quest#step2'
 end
