@@ -12,5 +12,8 @@ Rails.application.routes.draw do
   post '/step3', to: 'quest#step3'
 
   # Step 4
-  post 'step4', to: 'quest#step4'
+  post '/step4', to: 'quest#step4'
+
+  # Step 5
+  get '/quest/step5', to: 'quest#step5'
 end

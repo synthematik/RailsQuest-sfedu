@@ -3,6 +3,6 @@
   before_action :forbid, only: :step5
 
   def forbid
-    @forbidden = true
+    @forbidden = false
   end
 end
