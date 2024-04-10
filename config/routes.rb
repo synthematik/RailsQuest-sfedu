@@ -7,4 +7,7 @@ Rails.application.routes.draw do
 
   # Кто-то начал делать квест!
   get '/step2', to: 'quest#step2'
+
+  # Step 3
+  post '/step3', to: 'quest#step3'
 end
